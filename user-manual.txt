@@ -1,0 +1,21 @@
+How to run:
+
+1. Make sure your command line supports Python.'
+
+2. Enter "python3 pig_latin_server.py" in your command line to run the server.
+
+3. Enter "python3 pig_latin_client.py" in your command line to run the client.
+
+4. You will be prompted by the client to enter the IP address. The IP address is printed
+    in the terminal of the server side. To establish connection, enter the IP address from
+    the server command line.
+    
+    IF CONNECTION IS ESTABLISHED:
+        -   You will be prompted to enter your message. Enter the message you want to be 
+            translated.
+        -   After entering, the server side and the client side will ask if you want to
+            continue. Make sure to answer the server side first and then the client side.
+            Enter 1 if you want to continue, otherwise enter 0.
+
+5. The server will continue unless closed. Make sure to close the server-side terminal
+    once you're done.
